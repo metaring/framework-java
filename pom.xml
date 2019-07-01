@@ -18,7 +18,7 @@
 
     <groupId>com.metaring</groupId>
     <artifactId>framework-java</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4-SNAPSHOT</version>
 
     <name>MetaRing Java Framework</name>
     <description>The MetaRing Framework for Java</description>
@@ -42,7 +42,7 @@
     <scm>
         <url>https://github.com/metaring/framework-java.git</url>
         <developerConnection>scm:git:git@github.com:metaring/framework-java.git</developerConnection>
-        <tag>v1.0.3</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <dependencies>
