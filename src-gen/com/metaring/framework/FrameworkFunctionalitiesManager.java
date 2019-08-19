@@ -8,7 +8,7 @@ import java.util.concurrent.CompletableFuture;
 
 public class FrameworkFunctionalitiesManager extends FunctionalitiesManager implements GeneratedFunctionalitiesManager {
 
-    public static final FunctionalityInfo REINIT = FunctionalityInfo.create("com.metaring.framework.reinit", true, false, false, null, null);
+    public static final FunctionalityInfo REINIT = ReinitFunctionality.INFO;
 
     public static final CompletableFuture<Void> reinit() {
         return call(REINIT, ReinitFunctionality.class, getCallingFunctionality(), null, null);
