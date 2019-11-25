@@ -18,7 +18,7 @@
 
     <groupId>com.metaring</groupId>
     <artifactId>framework-java</artifactId>
-    <version>1.5.1-SNAPSHOT</version>
+    <version>1.5.2-SNAPSHOT</version>
 
     <name>MetaRing Java Framework</name>
     <description>The MetaRing Framework for Java</description>
@@ -49,7 +49,7 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>framework-java-rpc</artifactId>
-            <version>1.5.0</version>
+            <version>1.5.1</version>
         </dependency>
     </dependencies>
 
